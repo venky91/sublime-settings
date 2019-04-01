@@ -1,71 +1,10 @@
+// Settings in here override those in "Default/Preferences.sublime-settings",
+// and are overridden in turn by syntax-specific settings.
 {
-	"auto_indent": true,
-	"caret_style": "phase",
-	"color_scheme": "Packages/Color Scheme - Default/Monokai.tmTheme",
-	"ensure_newline_at_eof_on_save": true,
-	"fade_fold_buttons": false,
-	"file_exclude_patterns":
-	[
-		"*.a",
-		"*.cache",
-		"*.class",
-		"*.crt",
-		"*.db",
-		"*.dll",
-		"*.dylib",
-		"*.exe",
-		"*.idb",
-		"*.key",
-		"*.lib",
-		"*.log",
-		"*.ncb",
-		"*.o",
-		"*.obj",
-		"*.pdb",
-		"*.psd",
-		"*.pyc",
-		"*.pyo",
-		"*.rdb",
-		"*.sdf",
-		"*.so",
-		"*.sock",
-		"*.suo",
-		"*.woff",
-		".DS_Store"
-	],
-	"folder_exclude_patterns":
-	[
-		".bundle",
-		".git",
-		".hg",
-		".sass-cache",
-		".svn",
-		"bower_components",
-		"coverage",
-		"CVS",
-		"dist",
-		"log",
-		"node_modules",
-		"solr",
-		"tmp",
-		"vendor"
-	],
-	"font_size": 15,
-	"highlight_line": true,
-	"highlight_modified_tabs": true,
-	"ignored_packages":
-	[
-		"Vintage"
-	],
-	"line_padding_bottom": 1,
-	"line_padding_top": 1,
-	"rulers":
-	[
-		80
-	],
-	"scroll_past_end": true,
-	"show_full_path": true,
-	"tab_size": 2,
-	"translate_tabs_to_spaces": true,
-	"trim_trailing_white_space_on_save": true
+  "translate_tabs_to_spaces": true,
+  "trim_trailing_white_space_on_save": true,
+  "draw_white_space": "all",
+  "ensure_newline_at_eof_on_save": true,
+  "show_full_path": true,
+  "tab_size": 2,
 }
